@@ -175,7 +175,7 @@ const HomeScreen = ({ initialText = '', initialFormula = '', onAnalyze }) => {
         <div className="mt-10">
           <h3 className="text-center text-sm font-semibold uppercase tracking-wider text-purple-600 dark:text-purple-400">Pratique com exemplos</h3>
           <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-1">
-            A–D são as substâncias analisadas por Lopes &amp; Fascio (Quím. Nova, 2004). A resposta fica escondida.
+            Analise os exemplos abaixo. A resposta fica escondida. 
           </p>
           <div className="mt-4 grid sm:grid-cols-2 gap-3">
             {EXAMPLES.map(ex => (

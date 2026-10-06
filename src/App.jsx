@@ -63,19 +63,14 @@ function App() {
       </main>
 
       <footer className="bg-gray-900 text-white py-10 px-4 mt-12">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row md:justify-center gap-10 md:gap-20">
+          <div className="md:max-w-sm">
             <h3 className="text-2xl font-bold mb-3 bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">IRIS</h3>
             <p className="text-gray-400 text-sm">
               Ferramenta didática para interpretação de espectros de infravermelho: das bandas às ligações, dos grupos funcionais à classe provável do composto.
             </p>
           </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-3">Referência</h4>
-            <p className="text-gray-400 text-sm">
-              Lopes, W. A.; Fascio, M. Esquema para interpretação de espectros de substâncias orgânicas na região do infravermelho. <i>Quím. Nova</i> 2004, 27, 670–673.
-            </p>
-          </div>
+
           <div>
             <h4 className="text-lg font-semibold mb-3">Sobre o autor</h4>
             <div className="flex items-center space-x-4">
